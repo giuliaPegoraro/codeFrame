@@ -4,12 +4,11 @@ codeFrame includes sequence, a python script, which has the aim to retrieve the 
 
 ## General info 
 
-The input file is an excel file containing the list of genes.
-In the fasta file is present the genome of the organism.
-In the genbank file includes information regarding the genes including the start position that is the information that I used.
-
-The code is generalized to work with the genbank file of different organisms.
-The output file is a fasta file containing the sequences of 50 nt of the genes.
+The input file is an excel file containing the list of genes. <br />
+In the fasta file is present the genome of the organism. <br />
+In the genbank file includes information regarding the genes including the start position that is the information that I used. <br />
+The code is generalized to work with the genbank file of different organisms. <br />
+The output file is a fasta file containing the sequences of 50 nt of the genes. <br />
 
 ## Technologies
 
