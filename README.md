@@ -13,3 +13,8 @@ The output file is a fasta file containing the sequences of 50 nt of the genes. 
 ## Technologies
 
 The version of Python used is 2.7
+
+## Launch
+
+python sequence.py leaderlessNotOrthologues.xlsx 
+
