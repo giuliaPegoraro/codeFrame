@@ -22,11 +22,11 @@ python sequence.py leaderlessNotOrthologues.xlsx
 
 ## Libraries
 
-'''Python
+```Python
 from Bio import SeqIO
 import pandas as pd
 import os, sys
-'''
+```
 
 
 
