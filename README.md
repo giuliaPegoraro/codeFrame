@@ -16,5 +16,6 @@ The version of Python used is 2.7
 
 ## Launch
 
+Example execution: <br />
 python sequence.py leaderlessNotOrthologues.xlsx 
 
