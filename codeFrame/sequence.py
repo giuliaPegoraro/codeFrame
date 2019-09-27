@@ -34,7 +34,7 @@ for j in range(len(cols)):
 
 		location = get_feature_location(genbank.features, locus_tag)
 		if not location:
-			""" some genes are not found because they are annotated with "RS" in their"""
+			""" some genes are not found because they are annotated with "RS" """
 			locus_tag = locus_tag.split("_")[0]+"_RS"+locus_tag.split("_")[1]
 			location = get_feature_location(genbank.features, locus_tag)
 			if not location:
@@ -43,5 +43,5 @@ for j in range(len(cols)):
 		f.write( ">"+locus_tag +" "+ orgn +"\r\n")
 		f.write(str(genome.seq[location.start:location.start+50])+"\r\n")
 
-print("Skipped"+str(error)) #print number of skipped genes
+print("Skipped genes:"+str(error)) #print number of skipped genes
 		
