@@ -24,7 +24,7 @@ for j in range(len(cols)):
 
 	f = open(col+".fasta", "w+")
 	
-	print orgn 
+	#print orgn 
 	for i in range(int(col.split(" ")[2])):
 		genbank = SeqIO.read(""+orgn+".genbank", "genbank")
 		genome = SeqIO.read(""+orgn+".fasta", "fasta")
