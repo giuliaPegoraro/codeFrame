@@ -15,11 +15,6 @@ The output file is a fasta file containing the sequences of 50 nt of the genes. 
 Implemented for Ubuntu
 The version of Python used is 2.7
 
-## Launch
-
-Example execution: <br />
-python sequence.py leaderlessNotOrthologues.xlsx 
-
 ## Libraries
 
 ```Python
@@ -27,6 +22,13 @@ from Bio import SeqIO
 import pandas as pd
 import os, sys
 ```
+
+## Launch
+
+Example execution: <br />
+python sequence.py leaderlessNotOrthologues.xlsx 
+
+
 
 
 
