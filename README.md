@@ -1,6 +1,6 @@
 # codeFrame
 
-codeFrame includes sequence, a python script which has the aim to retrieve the first 50 nucleotides of a list of genes.
+codeFrame includes sequence, a python script, which has the aim to retrieve the first 50 nucleotides of a list of genes.
 
 ## General info 
 
