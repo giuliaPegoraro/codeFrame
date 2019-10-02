@@ -9,7 +9,7 @@ cols = list(df.columns.values)
 error = 0
 
 def get_feature_location(features, id, tags=["locus_tag", "old_locus_tag"]):
-    """ return the start location of the definied gene from the genome"""
+    """ return the start location of the defined gene from the genome"""
     for f in features:
         for key in tags:
             #tag may not be present in this feature
