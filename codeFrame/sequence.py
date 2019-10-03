@@ -1,6 +1,6 @@
 from Bio import SeqIO
 import pandas as pd
-import os, sys
+import sys
 
 doc = sys.argv[1]  
 xls = pd.ExcelFile(doc) #file contains the names of the organisms 
